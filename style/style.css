@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -34,63 +31,459 @@ nav {
 }
 
 .logo-happiness {
-    margin-right: 470px;
+    margin-right: 380px;
 }
 
-.encabezado {
-    background-color: #FFFFFF;
+
+.seccion-encabezado {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.contenedor-encabezado {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 270px;
 }
 
-.texto-encabezado {
-    width: 700px;
-    margin-top: 60px;
-}
-
-.img-encabezado img {
-    margin-left: 50px;
+.imagen-encabezado img {
+    width: 600px;
+    height: auto;
 }
 
 .texto-encabezado h2 {
     font-size: 80px;
+    color: #000;
+    line-height: 1.1;
 }
 
-button {
-    background-color: #F5CB00;
-    color: #000000;
-    font-size: 18px;
-    padding: 5px 10px;
+.texto-encabezado p {
+    margin: 20px 0;
+    font-size: 17px;
+    width: 450px;
+}
+
+.texto-encabezado button {
+    background-color: #f5cb00;
     border: none;
+    padding: 10px 30px;
     font-weight: bold;
+    font-size: 17px;
 }
 
-.seccion-encuesta{
-    background-color: #E6E6E6;
-    width: 1300px;
-    margin-left: 300px;
-    margin-top: 100px;
+.contenedor-flotante {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 100px 200px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: 200px;
 }
 
-.texto-encuesta{
-    width: 500px;
-    margin-top: 100px;
-}
 
-.texto-encuesta h2{
-   color: #F5CB00;
-   font-size: 60px;
-
+.texto-encuesta h3 {
+    color: #f5cb00;
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 15px;
 }
 
 .texto-encuesta p {
+    width: 300px;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.texto-encuesta a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.graficos-encuesta {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.graficos-encuesta img {
+    width: 200px;
+    height: auto;
+}
+
+
+.fondo-amarillo {
+    background-color: #f5cb00;
+    padding: 430px 0 100px;
+}
+
+.contenido-amarillo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-left: 200px;
+}
+
+.texto-amarillo h2 {
+    font-size: 80px;
+    color: #000;
+    line-height: 1.1;
+    max-width: 450px;
+    font-weight: 400;
+}
+
+.texto-amarillo p {
+    color: #000;
+    line-height: 1.5;
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 18px;
+}
+
+.texto-amarillo button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.imagen-amarilla img {
+    width: 900px;
+    margin-left: 700px;
+}
+
+.seccion-flotante {
+    padding: 100px 200px;
+}
+
+
+.seccion-happiness {
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: 200px;
+    margin-top: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imagen-happiness img {
+    width: 90%;
+}
+
+.img-happiness {
+    margin-left: 200px;
+}
+
+.titulo-happiness h2 {
+    font-size: 80px;
+    font-weight: 200;
+    color: #F5CB00;
+}
+
+.titulo-happiness p {
+    font-size: 18px;
+    width: 500px;
+}
+
+.titulo-happiness button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+
+.titulo-about {
+    text-align: center;
+    color: #E9C919;
+    background-color: #000;
+    padding: 100px 0;
+}
+
+.titulo-about h3 {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.titulo-about p {
+    width: 600px;
+    color: #FFFFFF;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.img-about img {
+    margin-top: 50px;
+}
+
+
+.titulo-about button {
+    background-color: #f5cb00;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+
+.seccion-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.img-team img {
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.titulo-team {
+    margin-left: 100px;
+}
+
+.titulo-team p {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.titulo-team h3 {
+    font-size: 60px;
     color: #000000;
 }
 
-.solo-img-encuestas{
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 500px;
-    margin-bottom: 100px;
+.titulo-team button {
+    background-color: #f5cb00;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
 }
+
+
+.titulo-try {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    padding: 100px 0;
+}
+
+.img-try-our img {
+    width: 700px;
+}
+
+.titulo-try h2 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.titulo-try p {
+    width: 600px;
+}
+
+.texto-try button {
+    background-color: #f5cb00;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.seccion-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.formulario {
+    width: 500px;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 40px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+input,
+textarea {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 3px;
+    font-size: 14px;
+}
+
+
+.formulario p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.texto-formulario h2 {
+    font-size: 60px;
+    color: #F5CB00;
+    font-weight: 200;
+}
+
+.texto-formulario p {
+    color: #000;
+    width: 600px;
+}
+
+.texto-formulario button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.seccion-mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5CB00;
+    padding: 100px 0px;
+}
+
+
+.texto-mapa h3 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.texto-mapa p {
+    text-align: center;
+}
+
+.img-mapa img {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.texto-mapa button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 550px;
+}
+
+footer {
+  background-color: #000;
+  padding: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.listas {
+  display: flex;
+  justify-content: flex-start;
+  gap: 150px;
+  color: #F5CA00;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listas a {
+  text-decoration: none;
+  color: #F5CA00;
+}
+
+.listas a:hover {
+  color: #fff;
+}
+
+.linea-footer {
+  border: none;
+  border-top: 1px solid #FFFFFF;
+  width: 100%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F5CA00;
+  font-weight: bold;
+}
+
+.redes img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+

@@ -510,6 +510,11 @@ footer img {
         width: 350px;
     }
 
+    .texto-encabezado button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
     .contenedor-flotante {
         width: 80%;
         padding: 55px 120px;
@@ -541,6 +546,11 @@ footer img {
 
     .contenido-amarillo {
         margin-left: 80px;
+    }
+
+    .texto-amarillo button {
+        padding: 5px 15px;
+        font-size: 15px;
     }
 
     .texto-amarillo h2 {
@@ -591,5 +601,98 @@ footer img {
     .titulo-happiness button {
         padding: 5px 15px;
         font-size: 15px;
+    }
+
+    .titulo-about p {
+        width: 400px;
+        margin-left: 260px;
+    }
+
+    .img-about img {
+        width: 700px;
+    }
+
+    .titulo-about button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .img-team img {
+        width: 440px;
+        margin-left: 0px;
+    }
+
+    .seccion-team {
+        width: 100%;
+    }
+
+    .titulo-team {
+        margin-left: 30px;
+    }
+
+    .titulo-team p {
+        width: 300px;
+    }
+
+    .titulo-team button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .texto-try h2 {
+        font-size: 60px;
+    }
+
+    .texto-try {
+        margin-right: 50px;
+    }
+
+    .texto-try p {
+        width: 300px;
+    }
+
+    .img-try-our img {
+        width: 440px;
+    }
+
+    .texto-try button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .formulario {
+        margin-left: 50px;
+        padding: 10px 20px;
+    }
+
+    .texto-formulario {
+        margin-right: 70px;
+    }
+
+    .texto-formulario h2 {
+        font-size: 50px;
+    }
+
+    .texto-formulario p {
+        width: 300px;
+    }
+
+    .texto-formulario button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .img-mapa img {
+        width: 800px;
+    }
+
+    .texto-mapa button {
+        padding: 5px 15px;
+        font-size: 15px;
+        margin-left: 360px;
+    }
+
+    .columna a{
+        font-size: 16px;
     }
 }

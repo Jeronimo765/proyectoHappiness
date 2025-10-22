@@ -487,6 +487,9 @@ footer img {
 }
 
 @media (max-width: 1279px) {
+    .secciones{
+        gap: 3px;
+    }
     .secciones a {
         margin-left: 0px;
         margin-right: 20px;
@@ -875,6 +878,7 @@ footer img {
 @media (max-width: 768px) {
     .secciones {
         flex-direction: column;
+        gap: 3px;
     }
 
     .secciones a {
